@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+runs/
+.pytest_cache/
+weights/
+runs/
+data/text/
+data/flickr30k/flickr30k-images/

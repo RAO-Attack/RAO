@@ -1,0 +1,17 @@
+source_model,target_model,white_box,TR_R1_ASR,IR_R1_ASR
+clip_vit,clip_vit,True,100.0,99.97
+clip_vit,clip_rn101,False,83.52,84.67
+clip_vit,albef,False,32.01,49.91
+clip_vit,tcl,False,33.83,53.0
+clip_rn101,clip_vit,False,68.96,75.19
+clip_rn101,clip_rn101,True,100.0,100.0
+clip_rn101,albef,False,25.23,42.24
+clip_rn101,tcl,False,26.34,46.93
+albef,clip_vit,False,62.33,69.88
+albef,clip_rn101,False,67.18,72.45
+albef,albef,True,99.69,99.77
+albef,tcl,False,74.71,79.76
+tcl,clip_vit,False,61.84,67.11
+tcl,clip_rn101,False,66.41,70.33
+tcl,albef,False,69.13,76.36
+tcl,tcl,True,100.0,99.9

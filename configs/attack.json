@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "batch_size": 16,
+  "eps": 0.00784313725490196,
+  "steps": 10,
+  "step_size": 0.00196078431372549,
+  "exp_num": 5,
+  "text_global_weight": 1.0,
+  "text_local_weight": 1.0,
+  "tf32": "on",
+  "mixed11": {
+    "noise_sigma": 0.01,
+    "translation_fraction": 0.15,
+    "resize_min": 0.75,
+    "translation_noise_sigma": 0.0025,
+    "extra_repeats": 2,
+    "noise_sigmas": [
+      0.005,
+      0.01
+    ],
+    "resize_restore_scales": [
+      0.5,
+      0.75
+    ]
+  }
+}
